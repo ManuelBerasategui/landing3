@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googl|pis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 *{
     font-family: 'Roboto', sans-serif;
     z-index: 2;
-}
+}   
 
 h1{
     font-family: 'Merriweather', serif;
@@ -15,22 +15,19 @@ h1{
     color: aqua;
     position: relative;
     z-index: 2;
+    cursor: pointer;
 }
 
-.back{
-    z-index: 1;
-    position: relative;
-    top: -3100px;
-    left: -10px;
 
-    width: 2000px;
-}
 
 h4{
     z-index: 2;
     position: relative;
     color: white;
     font-size: 17px;
+    margin-left: 50px;
+    cursor: pointer;
+    max-width: 17px;
 }
 
 p{
@@ -44,6 +41,8 @@ p{
     top: -40px;
     right: -750px;
     font-size: 15;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .trailer{
@@ -51,6 +50,8 @@ p{
     top: -75px;
     right: -850px;
     font-size: 15;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .tickets{
@@ -58,6 +59,8 @@ p{
     top: -110px;
     right: -950px;
     font-size: 15;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .blog{
@@ -65,6 +68,8 @@ p{
     top: -145px;
     right: -1050px;
     font-size: 15;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .enroll{
@@ -78,6 +83,9 @@ p{
     height: 30px;
     text-align: center;
     border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    
 }
 
 .whitebar{
@@ -100,3 +108,116 @@ p{
     
     height: 3px;background: aqua url(aa010307.gif) no-repeat scroll center;border:none;
 }
+
+h2{
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+    left: 140px;
+    top: -100px;
+
+    color: white;
+    font-size: 1.5em;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+    left: 140px;
+    top: -100px;
+
+    color: white;
+    font-size: 5.5em;
+}
+
+.greenbar2{
+    z-index: 2;
+    position: relative;
+    top: -75px;
+    left: -450px;
+    width: 100px;
+    
+    height: 3px;background: aqua url(aa010307.gif) no-repeat scroll center;border:none;
+}
+
+.text{
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+    left: 150px;
+    top: -65px;
+    max-width: 500px;
+    
+}
+
+.back{
+    z-index: 1;
+    position: relative;
+    top: -620px;
+    left: -10px;
+
+    width: 2000px;
+    height: 1250px;
+}
+
+.earth{
+    z-index: 2;
+    position: relative;
+    top: -1760px;
+    left: 700px;
+    
+    width: 500px;
+}
+
+.learnmore{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    z-index: 2;
+    position: relative;
+    left: 150px;
+
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.learnmorebut{
+    z-index: 2;
+    position: relative;
+    left: 150px;
+    top: 18px;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.arrow {
+    z-index: 3;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    left: 320px;
+    top: -47px;
+    width: 5px;
+    height: 5px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
